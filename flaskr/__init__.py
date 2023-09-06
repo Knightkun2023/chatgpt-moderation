@@ -5,8 +5,9 @@ from .log_config import configure_logging
 import os
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 app.config.from_pyfile('config.py')
+app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+app.config['REMOTE_URL'] = os.environ['REMOTE_URL']
 CORS(app, resources={
     r"/prompt/moderation2": {
         "origins": "https://chat.openai.com",
