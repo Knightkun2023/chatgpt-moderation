@@ -75,26 +75,6 @@ button.register, button.edit {
     color: white;
 }
 
-/* ハンバーガーメニューボタンのスタイル */
-.hamburger-menu {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: fixed;
-    top: 10px;
-    right: 10px; /* 右上に配置 */
-    z-index: 9999; /* オーバーレイの可能性を考慮してz-indexを設定 */
-}
-
-.hamburger-menu .bar {
-    width: 30px;
-    height: 4px;
-    background-color: black;
-}
-
 /* メニューのスタイル */
 .menu-content {
     display: none;
