@@ -1,0 +1,147 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-06 22:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: static/check_moderation.js:66
+msgid ""
+"Content that expresses, incites, or promotes harassing language towards "
+"any target."
+msgstr ""
+
+#: static/check_moderation.js:68
+msgid ""
+"Harassment content that also includes violence or serious harm towards "
+"any target."
+msgstr ""
+
+#: static/check_moderation.js:70
+msgid ""
+"Content that expresses, incites, or promotes hate based on race, gender, "
+"ethnicity, religion, nationality, sexual orientation, disability status, "
+"or caste. Hateful content aimed at non-protected groups (e.g., chess "
+"players) is harrassment."
+msgstr ""
+
+#: static/check_moderation.js:72
+msgid ""
+"Hateful content that also includes violence or serious harm towards the "
+"targeted group based on race, gender, ethnicity, religion, nationality, "
+"sexual orientation, disability status, or caste."
+msgstr ""
+
+#: static/check_moderation.js:74
+msgid ""
+"Content that promotes, encourages, or depicts acts of self-harm, such as "
+"suicide, cutting, and eating disorders."
+msgstr ""
+
+#: static/check_moderation.js:76
+msgid ""
+"Content where the speaker expresses that they are engaging or intend to "
+"engage in acts of self-harm, such as suicide, cutting, and eating "
+"disorders."
+msgstr ""
+
+#: static/check_moderation.js:78
+msgid ""
+"Content that encourages performing acts of self-harm, such as suicide, "
+"cutting, and eating disorders, or that gives instructions or advice on "
+"how to commit such acts."
+msgstr ""
+
+#: static/check_moderation.js:80
+msgid ""
+"Content meant to arouse sexual excitement, such as the description of "
+"sexual activity, or that promotes sexual services (excluding sex "
+"education and wellness)."
+msgstr ""
+
+#: static/check_moderation.js:82
+msgid "Sexual content that includes an individual who is under 18 years old."
+msgstr ""
+
+#: static/check_moderation.js:84
+msgid "Content that depicts death, violence, or physical injury."
+msgstr ""
+
+#: static/check_moderation.js:86
+msgid ""
+"Content that depicts death, violence, or physical injury in graphic "
+"detail."
+msgstr ""
+
+#: static/check_moderation.js:107
+msgid "Unable to retrieve the correct data."
+msgstr ""
+
+#: templates/moderation.html:5 templates/moderation.html:15
+msgid "Moderation API"
+msgstr ""
+
+#: templates/moderation.html:5
+msgid "ChatGPT API Chat"
+msgstr ""
+
+#: templates/moderation.html:19
+msgid "Prompt Content"
+msgstr ""
+
+#: templates/moderation.html:29
+msgid "Select Moderation Model:"
+msgstr ""
+
+#: templates/moderation.html:43
+msgid "Check Moderation"
+msgstr ""
+
+#: templates/moderation.html:44
+msgid "Cleanup Prompt"
+msgstr ""
+
+#: templates/moderation.html:45
+msgid "Download TXT"
+msgstr ""
+
+#: templates/moderation.html:46
+msgid "Download MD"
+msgstr ""
+
+#: templates/moderation.html:47
+msgid "Copy To Clipboard"
+msgstr ""
+
+#: templates/parts/common_scripts.html:16
+msgid "New Chat"
+msgstr ""
+
+#: templates/parts/common_scripts.html:17
+msgid "Prompt List"
+msgstr ""
+
+#: templates/parts/common_scripts.html:18
+msgid "New Prompt"
+msgstr ""
+
+#: templates/parts/common_scripts.html:50
+msgid "OK"
+msgstr ""
+
+#: templates/parts/common_scripts.html:53
+msgid "Cancel"
+msgstr ""
+
