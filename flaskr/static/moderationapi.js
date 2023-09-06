@@ -1,6 +1,4 @@
 (function() {
-    var MODERATION_REMOTE_URL = 'https://chat-evil-1f296925f1f6.herokuapp.com';
-
     // ローディングアイコンを表示する関数
     function showLoadingIcon() {
         document.getElementById('loadingIcon').style.display = 'block';
@@ -89,7 +87,7 @@
         // リクエスト開始時にローディングアイコンを表示
         showLoadingIcon();
 
-        fetch(MODERATION_REMOTE_URL + '/prompt/moderation2', {
+        fetch(REMOTE_URL + '/prompt/moderation2', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
