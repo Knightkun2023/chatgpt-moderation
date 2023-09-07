@@ -13,6 +13,7 @@ $(document).ready(function() {
 
     function delete_prompt_content() {
         simplemde.value('');
+        simplemde.codemirror.focus();
     }
 
     function downloadPrompt(ext) {
