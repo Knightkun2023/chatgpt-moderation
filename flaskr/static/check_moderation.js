@@ -154,7 +154,14 @@ $(document).ready(function() {
         });
     }
 
-    $('#check_moderation').click(check_moderation);
+    $('#check_moderation').click(function() {
+        check_moderation();
+
+        // 画面の一番上にスクロール
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);  // 800ミリ秒（0.8秒）かけてスクロールさせる
+    });
 
     $('#remove_wastes').click(function() {
         var text = simplemde.value();
