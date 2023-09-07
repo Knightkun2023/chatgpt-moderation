@@ -19,10 +19,7 @@ $(document).ready(function() {
         var text = simplemde.value();
         var blob = new Blob([text], { type: "text/plain" });
         var link = document.createElement("a");
-        var title = $('#prompt_name').val().trim();
-        if (title === '') {
-            title = "System_Prompt";
-        }
+        var title = "moderated_prompt";
         link.download = title + "_" + getCurrentDateTime() + ext;
         link.href = window.URL.createObjectURL(blob);
         link.click();
@@ -45,6 +42,7 @@ $(document).ready(function() {
                 showWarningMessage('Failed to copy prompt to Clipboard.', 4000);
             });
     }
+    $('#copy_to_clipboard_button').click(copy_to_clipboard);
 
     // テーブルを作成する関数
     function createModerationTable(data) {
