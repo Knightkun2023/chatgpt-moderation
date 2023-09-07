@@ -57,7 +57,6 @@ def check_moderation2():
 
     # free_keyをチェックする
     custom_header_value = request.headers.get('X-Chat-Url', None)
-    print(f'@@@@@@@@@@ custom_header_value=[{custom_header_value}]')
     if custom_header_value and not custom_header_value.startswith('https://chat.openai.com/'):
         response_code = 403
         result_dict = {'error_message':'Error', 'result': []}
