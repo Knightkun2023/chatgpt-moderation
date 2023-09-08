@@ -88,12 +88,12 @@ function getClipboardContent() {
 
 // ローディングアイコンを表示する関数
 function showLoadingIcon() {
-    $('#loadingIcon').show();
+    document.getElementById('loadingIcon').style.display = 'block';
 }
 
 // ローディングアイコンを非表示にする関数
 function hideLoadingIcon() {
-    $('#loadingIcon').hide();
+    document.getElementById('loadingIcon').style.display = 'none';
 }
 
 let translations = {};

@@ -1,14 +1,4 @@
 (function() {
-    // ローディングアイコンを表示する関数
-    function showLoadingIcon() {
-        document.getElementById('loadingIcon').style.display = 'block';
-    }
-
-    // ローディングアイコンを非表示にする関数
-    function hideLoadingIcon() {
-        document.getElementById('loadingIcon').style.display = 'none';
-    }
-
     function getContent() {
         var latestText = document.getElementById('prompt-textarea').textContent;
         if (latestText === '') {
