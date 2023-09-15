@@ -87,7 +87,7 @@
         // リクエスト開始時にローディングアイコンを表示
         showLoadingIcon();
 
-        fetch(MODERATION_REMOTE_URL + '/prompt/moderation2', {
+        fetch(MODERATION_REMOTE_URL + '/moderation/check2', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -52,7 +52,7 @@ def check_moderation():
 
     return jsonify(result_dict), response_code
 
-@app.route('/prompt/moderation2', methods=['POST'])
+@app.route('/moderation/check2', methods=['POST'])
 def check_moderation2():
 
     # free_keyをチェックする
