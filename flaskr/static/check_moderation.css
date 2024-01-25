@@ -35,5 +35,5 @@ div.editor-toolbar>a[title="Moderation"] {
 
 #moderation-model {
     display: inline-block;
-    margin: auto;
+    margin: 0.5rem auto;
 }

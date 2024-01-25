@@ -140,7 +140,7 @@ $(document).ready(function() {
                 }
                 var moderationPanel = $('<div id="moderation_panel"></div>');
                 moderationPanel.append(createModerationTable(data));
-                moderationPanel.append($('<span id="moderation-model">' + data.model + '</span>'));
+                moderationPanel.append($('<span id="moderation-model">モデレーションモデル：' + data.model + '</span>'));
                 $('#detail_panel').prepend(moderationPanel);
             },
             error: function(jqXHR, textStatus, errorThrown) {
