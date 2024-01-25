@@ -32,3 +32,8 @@ div.editor-toolbar>a[title="Moderation"] {
 .CodeMirror, .CodeMirror-scroll {
 	min-height: 160px;
 }
+
+#moderation-model {
+    display: inline-block;
+    margin: auto;
+}
