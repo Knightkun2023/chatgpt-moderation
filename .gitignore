@@ -7,3 +7,4 @@ flaskr/static/.DS_Store
 work
 flask_session
 logs
+start_*.sh
